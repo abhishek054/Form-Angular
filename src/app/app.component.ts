@@ -1,15 +1,15 @@
 import { Component, Input } from '@angular/core';
-import { DatabaseComponent } from './database/database.component'
+// import { DatabaseComponent } from './database/database.component'
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [DatabaseComponent]
+  // providers: [DatabaseComponent]
 })
 export class AppComponent {
   title = 'AssignmentForms';
-  constructor(private comp : DatabaseComponent){
+  constructor(){
 
   }
 

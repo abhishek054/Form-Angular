@@ -1,6 +1,7 @@
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { DataBaseService } from './data-base.service';
 import { DataType } from '../dataType';
+// import { Response } from '@angular/http'
 
 @Component({
   selector: 'app-database',
@@ -19,9 +20,10 @@ export class DatabaseComponent implements OnInit , DoCheck {
   ngOnInit() {
     this._data.getData().subscribe(
 
-      (data) => {
-        this.data = data;
-        console.log("Hello")
+      (response) => {
+        this.data = response;
+        console.log(response);
+        // console.log("Hello")
       },
       // ()=>{
       //   console.log("next");
