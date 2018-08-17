@@ -1,0 +1,41 @@
+<!-- <a (click)="Reload()" >Reload</a> -->
+<!-- <button class="btn">Reload</button><br>
+<br> -->
+
+<b>
+    <div>
+        <div class="row">
+
+            <div class="col"> Title </div>
+            <div class="col">EMail Id </div>
+            <div class="col">Mobile </div>
+            <div class="col"> Gen</div>
+            <div class="col"> Car</div>
+            <div class="col"> Truck </div>
+            <div class="col"> Cycle </div>
+            <div class="col"> Bike</div>
+            <div class="col">Years Of Experience </div>
+
+        </div>
+      <br>
+      </div>
+</b>
+
+<div *ngFor="let d of data">
+    <div class="row">
+
+        <div class="col"> {{d.title}} </div>
+        <div class="col">{{d.mail}} </div>
+        <div class="col">{{d.mobile}} </div>
+        <div class="col"> {{d.gen}}</div>
+        <div class="col"> {{d.Car}}  </div>
+        <div class="col">{{d.Truck}} </div>
+        <div class="col">{{d.Cycle}} </div>
+        <div class="col"> {{d.Bike}}</div>
+        <div class="col">{{d.yearOfExperience}} </div>
+
+
+      </div>
+      <!-- {{d.title}} -->
+</div>
+
