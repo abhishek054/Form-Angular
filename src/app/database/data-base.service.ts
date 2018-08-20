@@ -13,7 +13,7 @@ export class DataBaseService {
   // data : DataType[] = [];
   // name : string[] = []
   // titleArray : string[] = [];
-  url : string = "http://localhost:64791/api/FormData";
+  url : string = "http://localhost:51195/api/formdata";
 
   constructor(private http: HttpClient) {
     // this.data.push(

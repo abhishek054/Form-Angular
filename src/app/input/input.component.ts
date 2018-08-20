@@ -28,7 +28,7 @@ export class InputComponent implements OnInit {
     'Truck'
   ];
 
-  data : any = {
+  data : DataType  = {
     title: null,
     mail: null,
     yearOfExperience: null,
@@ -54,6 +54,7 @@ export class InputComponent implements OnInit {
     this._data.addData([this.data]).subscribe(
       (result)=>{console.log(result);}
     );
+
     console.log(this.data);
 
 

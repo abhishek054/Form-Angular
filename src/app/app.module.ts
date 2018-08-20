@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
 import { DatabaseComponent } from './database/database.component';
 import { FormsModule } from '../../node_modules/@angular/forms';
+import { GoogleSignInComponent } from './google-sign-in/google-sign-in.component';
 
 const route: Routes = [
   // {path:'', component:AppComponent},
@@ -26,6 +27,7 @@ const route: Routes = [
     // DisplayComponent,
     InputComponent,
     DatabaseComponent,
+    GoogleSignInComponent,
     // MatAutocompleteModule,
     // MatInputModule,
     // BrowserAnimationsModule
